@@ -1,2 +1,3 @@
-# next_level_week1_api
+# Ecoleta - Next Level Week
+
 Projeto desenvolvido na next level week da Rocketseat.
