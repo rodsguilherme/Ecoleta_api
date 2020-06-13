@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/GuilhermeRods/next_level_week1_api#readme",
   "dependencies": {
+    "@types/cors": "^2.8.6",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
