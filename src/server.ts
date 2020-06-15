@@ -13,4 +13,4 @@ app.use(cors());
 app.use("/uploads", express.static(path.resolve(__dirname, "..", "uploads")));
 
 app.use(routes);
-app.listen(PORT, () => console.log(`${PORT}`));
+app.listen(PORT, () => console.log(`Listenning on ${PORT}`));

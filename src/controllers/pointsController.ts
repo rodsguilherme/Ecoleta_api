@@ -30,9 +30,10 @@ class pointsController {
     const trx = await db.transaction();
 
     const [point_id] = await trx("points").insert({
-      image: "image-fake",
       name,
       email,
+      image:
+        "https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=850",
       longitude,
       latitude,
       whatsapp,
